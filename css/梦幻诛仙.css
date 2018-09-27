@@ -1,0 +1,569 @@
+/*头部开始*/
+.header{
+
+    margin: 0 auto;
+    height: 400px;
+    background:url(../img/t_1.jpg)  top  no-repeat;
+   
+}
+.banner{
+    height: 610px;
+    background: url(../img/t_2.jpg)  top  no-repeat;
+    position: relative;
+}
+ .box{
+    position: absolute;
+    right:350px;
+    top:40px;
+    width: 370px;   
+    height: 385px;  
+    background: url("../img/cicle.png");
+  }
+  .box p{
+    -webkit-margin-before:3px;
+    -webkit-margin-after:0px;
+    margin-left:8px;
+    color: #fff;
+  }
+  .box a:hover p{
+    color: #ff0;
+  }
+  .box a:nth-child(1){
+    position:absolute;
+    left:163px;
+    top:15px;
+  }
+  .box a:nth-child(2){
+    position:absolute;
+    left:46px;
+    top:79px;
+  }
+  .box a:nth-child(3){
+    position:absolute;
+    left:269px;
+    top:79px;
+  }
+   .box a:nth-child(4){
+    position:absolute;
+    left:46px;
+    top:203px;
+  }
+   .box a:nth-child(5){
+    position:absolute;
+    left:161px;
+    top:267px;
+  }
+ .box a:nth-child(6){
+    position:absolute;
+    left:271px;
+    top:210px;
+  }
+
+ .box a img{
+    transition:all 1s;    
+ }  
+ .box a:hover img{
+    transform:rotateY(180deg);
+ }
+
+
+/*中间部分开始*/
+/*导航栏开始*/
+.t{
+    height: 330px;
+    background:url(../img/t_3.jpg) top no-repeat;
+    position: relative;
+   }
+
+ .w .left {
+
+    position: absolute;
+    top:0px;
+    left: 50px;
+ }
+
+.left li {
+    display: none;
+    position: absolute;
+}
+
+  .left li:first-child  {
+      display: block;
+    }
+    
+    .arrow {
+      display: none;
+    }
+    
+    .left:hover .arrow {
+      display: block;
+    }
+    
+    .arrow-left,
+    .arrow-right {
+      font-family: "SimSun", "宋体";
+      width: 30px;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin-top: -30px;
+      cursor: pointer;
+      text-align: center;
+      line-height: 60px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    
+    .arrow-left:hover,
+    .arrow-right:hover {
+      background-color: rgba(0, 0, 0, .5);
+    }
+    
+    .arrow-left {
+      left: 0;
+       position: absolute;
+      top:157px;
+
+    }
+    
+    .arrow-right {
+      right: -589px;
+      position: absolute;
+      top:157px;    
+  }
+  
+/*右边导航栏开始*/
+.w .right {
+
+    position: absolute;
+   top: 0;
+   left: 704px;
+   margin-bottom: 20px;
+}
+.right .title  {
+
+    height: 36px;
+    border-bottom: 2px solid #271854;
+    width:574px;
+}
+.right .title span {
+
+    display: inline-block;
+    width: 90px;
+    font-size: 15px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.title span.blue{
+    background: #271854;
+}
+.connet li.show{
+    display: block;
+}
+.connet li {
+    display: none;
+}
+.connet li p {
+
+    height: 15px;
+    border-bottom: 1px dashed #ccc;
+    font-size:14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.connet li p:hover{
+    color: red;
+}
+
+.connet li p span {
+    float: right;
+    color: #89b5b7;
+}
+/*中间部分结束*/
+ /*新手必看开始*/ 
+.t1{
+    height: 777px;
+    background: url(../img/t_4.jpg)  top center;
+
+}
+
+.t1 .w {
+    position: relative;
+}
+
+.t1 .w h1{
+
+    position: absolute;
+    top:68px;
+    left: 152px;
+    font-size: 30px;
+    color: #e30b2d;
+}
+
+.t1 .w h6{
+    position: absolute;
+    top:112px;
+    left:165px;
+     color: #e30b2d;
+    
+}
+
+.t1 .w .t1-p{
+    position: absolute;
+    top:138px;
+    left: 82px;
+}
+
+.play{
+    position: absolute;
+    right: 280px;
+    top:310px;
+    font-size: 23px;
+}
+
+.t1 .w ul{
+
+    position: absolute;
+    top: 362px;
+    right: 217px;
+}
+
+.t1 .w ul li{
+
+    height: 32px;
+    line-height: 32px;
+}
+.t1 .w ul li a{
+    color: #000;
+}
+.t1 .w ul li a:hover{
+    color: red;
+}
+/*轮播图开始*/
+
+.photo{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo li img {
+    width: 1600px;
+     height: 600px;
+     margin:0 auto;
+}
+.photo ul{
+    position: relative;
+}
+
+.photo>ul>li{
+position: absolute;
+top:0;
+left: 0;
+height: 600px;
+display: none;
+}
+
+.photo .p1 {
+
+display: block;
+}
+
+
+
+.yuan{
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+    margin-left: -86px;
+}
+
+.yuan1 li {
+
+    height: 23px;
+    width:23px;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15px;
+}
+
+
+.yuan1 .red{
+    background: red;
+}
+
+/*圆点开始*/
+
+
+/*人物介绍开始*/
+.footer-top{
+    height: 400px;
+    padding-top:40px;
+
+}
+
+.footer-l {
+    position: relative;
+    width:400px;
+}
+
+.footer-l .game {
+
+    position: absolute;
+    text-align: center;
+    top:80px;
+    left: 149px;
+
+}
+
+.footer-l .game h1{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.game-lis ul{
+    position: absolute;
+    top:120px;
+    left:60px;
+}
+
+.game-lis ul li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.game-lis ul li a{
+    color: #000;
+}
+
+.game-lis ul li a:hover{
+
+    color:red;
+}
+
+.duo{
+    position: absolute;
+    bottom: 50px;
+    left:190px;
+    font-size: 12px;
+    color: #000;
+}
+
+ /*各个人物简介开始*/ 
+    
+.footer-r{
+
+    margin-right:341px;
+     position: relative;
+    height: 400px; 
+    width: 465px;
+
+}
+
+
+.footer-p .foo1 li{
+    position: absolute;
+}
+
+
+.footer-t{
+position: absolute;
+top:55px;
+left: 24px;
+width: 800px;
+
+}
+
+.footer-t span{
+    height: 29px;
+    width:74px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    margin-left:5px;
+    background: url(../img/hxon.png);
+    cursor: pointer;
+}
+
+
+.footer-t .door{
+     background: url(../img/hx.png);
+    color: white;
+}
+
+.foo1 li+li {
+    display: none;
+
+}
+
+/*.fool li:nth-child(1){
+    display: block;
+}*/
+.foo1 li .names{
+    width: 425px;
+    position: absolute;
+    right: 39px;
+    top: 149px;
+    z-index: 5;
+}
+.foo1 li .names h3{
+    background-color: #ccc;
+    text-align: center;
+    width:80px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px 0;
+    font-weight: 400;
+    cursor: pointer;
+    transform-origin: left;
+    transition:all 1s;
+}
+.foo1 li .names h3:hover{
+    background-color: #CA062B;
+    color: white;
+    transform:scale(1.2);
+}
+
+.foo1 li .names p span{
+    display: inline-block;
+    height: 22px;
+    width: 40px;
+    line-height: 22px;
+    background: #fbd76c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/*人物介绍结束*/
+
+
+/*视频开始*/
+.watch{
+    height: 320px;
+    margin-top: 100px;
+}
+
+.watch-l {
+    height: 300px;
+    width:570px;
+    
+    
+}
+
+.people {
+    position: relative;
+    text-align: center;
+
+}
+
+.people h2{
+    position: absolute;
+    top: -8px;
+    left: 239px;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.watch-l ul{
+    margin-top: 10px;
+}
+.watch-l .a1{
+    float: left;
+    margin: 5px;
+    position: relative;
+    z-index:20;
+
+}
+
+
+.aa img, .bb img {
+    width: 259px;
+}
+
+.aa{
+    position: absolute;
+    left: 445px;
+    margin-top: -201px;
+
+}
+.bb{
+    position: absolute;
+    left: 161px;
+    margin-top: -198px;
+
+}
+
+.people .tl{
+    position: absolute;
+    top: -8px;
+    left: 246px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.watch-r .a2{
+
+    float: left;
+    margin: 20px 10px;
+    /*background: #fefdf4;*/
+    position: relative;
+    z-index:20;
+}
+
+.watch-r .a2 img{
+    
+}
+.cc img {
+    width: 259px;
+}
+.cc {
+    width: 275px;
+    height: 202px;
+    overflow: hidden;
+    position: absolute;
+    right:440px;
+    margin-top: 25px;
+
+}  
+
+.dd img {
+
+    width: 259px;
+}
+
+.dd {
+    position: absolute;
+    right:148px;
+    margin-top: 20px;
+     width: 275px;
+    height: 202px;
+    overflow: hidden;
+
+} 
+
+.last{
+    background: url(../img/hxon.png) no-repeat;
+} 
+/*视频结束*/
+
+
+/*底部结束*/
+
+.footer-end{
+
+    height: 50px;
+    text-align: center;
+}
+
+.footer-end p {
+    color: #57535a;
+}
